@@ -38,5 +38,5 @@ to be 5.
 Whenever a player reaches kill count of 5, game stops and the same procedure as single
 player happens.
 
-### Screenshot Gameplay
-<img src="https://raw.githubusercontent.com/ksavas/RadarCardISG/master/w1.png">
+### A screenshot from gameplay
+<img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w1.png">
