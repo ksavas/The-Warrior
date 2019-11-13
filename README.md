@@ -40,3 +40,60 @@ player happens.
 
 ### A screenshot from gameplay
 <img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w1.png">
+
+## Implementation of Menu Design and Network Background
+When designing the menu, we tried to make it not much different from a regular game
+menu. One of the 2 manager scripts run here.
+Components of the menu are:
+- Single Player
+- Multiplayer
+- Options
+- Exit
+
+<img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w2.png">
+
+## Single Player Menu
+When a player opens up the single player menu, player faces a screen like this:
+
+<img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w3.png">
+
+As seen in the figure 2.2.1; player chooses a character and nick, decides the number of
+players and selects difficulty.
+
+GameManager.cs saves background information like name, character, player count,
+difficulty etc. then sends it to appropriate scripts as parameters. When “Start Game”
+option is selected, it starts to game according to choices made by the player.
+
+## Multiplayer Menu
+As we stated before, multiplayer has two different options. Either a player starts the
+game as a host or joins an alreay created game as a client. When multiplayer is selected,
+player has to choose one of these two options.
+
+Gamemanager.cs runs appropriate scripts and provides flow according to the choices of
+the player
+
+# Create a Game
+When the user chooses “create a game” option, he/she is faced with a screen similar to
+single player menu. Player then chooses a character, decides the number of players to
+join, starts the game and wits for other players to connect. When all the clients are
+connected, game starts simultaneously.
+
+<img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w4.png">
+
+# Connect to a Game
+When a player wants to connect to a game, player will see a screen like below:
+
+<img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w5.png">
+
+Here, player sees hosted games, chooses a game to join, picks a character and nickname
+and starts playing
+
+## Options
+Here; player can choose between two language options.
+
+<img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w6.png">
+
+To hold language information here, we created a list which is key, value pair. We added
+string values as counterparts to enum keys. We held the created list in a class and all
+the outputs in the game took their string values from this list. Contents of the list change
+according to chosen language.
