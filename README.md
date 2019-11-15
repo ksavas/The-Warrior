@@ -1,4 +1,5 @@
 # The-Warrior
+[Turkish](https://github.com/ksavas/The-Warrior/blob/master/README.en.md)
 "The Warrior" is a game that can be played either single player or multiplayer. It
 is in TPS view and aim of the game is to be the first one to reach the goal of five kills
 and win the game. Player eliminates players by shooting at them and each playground
