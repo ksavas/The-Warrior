@@ -57,7 +57,7 @@ When a player opens up the single player menu, player faces a screen like this:
 
 <img src="https://raw.githubusercontent.com/ksavas/The-Warrior/master/w3.png">
 
-As seen in the figure 2.2.1; player chooses a character and nick, decides the number of
+As seen in the figure; player chooses a character and nick, decides the number of
 players and selects difficulty.
 
 GameManager.cs saves background information like name, character, player count,
